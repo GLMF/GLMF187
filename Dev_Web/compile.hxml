@@ -1,0 +1,6 @@
+-cp source
+-main Index
+-php export
+#-neko export/index.n
+-resource tpl/contact-edit.html@contact-edit
+-resource tpl/contacts-list.html@contacts-list

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rkzk.android.bblmaterialdesign.fragments.FABFragment"
+    android:padding="8dp"
+    android:clipToPadding="false">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="@dimen/fab_width"
+        android:layout_height="@dimen/fab_width"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/color_fab_1"
+        android:layout_above="@+id/zoneFab"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/zoneFab"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="@dimen/fab_width"
+            android:layout_height="@dimen/fab_width"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="@color/color_fab_2"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="@dimen/fab_width"
+            android:layout_height="@dimen/fab_width"
+            android:layout_margin="@dimen/fab_margin"
+            app:backgroundTint="@color/color_fab_3"/>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="@dimen/fab_width"
+        android:layout_height="@dimen/fab_width"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_below="@+id/zoneFab"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

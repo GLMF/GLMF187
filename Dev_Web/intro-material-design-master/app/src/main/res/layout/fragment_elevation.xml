@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rkzk.android.bblmaterialdesign.fragments.ElevationFragment"
+    android:padding="8dp"
+    android:clipToPadding="false">
+
+    <com.rkzk.android.bblmaterialdesign.customviews.NetWorkImageView
+        android:id="@+id/imgBBL"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:elevation="8dp"
+        android:background="@drawable/custom_back_for_elevation"/>
+
+</FrameLayout>
